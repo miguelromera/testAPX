@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1625067295725
+Build-Jdk: 1.8.0_282
+Built-By: miguel.romera
+Bundle-Category: dto
+Bundle-Description: Customer DTO
+Bundle-ManifestVersion: 2
+Bundle-Name: QWAIC001
+Bundle-SymbolicName: QWAIC001-0.0.0
+Bundle-Version: 0.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bbva.qwai.dto.customers;uses:="com.bbva.apx.dto";ver
+ sion="0.0.0"
+Import-Package: com.bbva.apx.dto;version="0.0",org.apache.commons.lang3.
+ builder;version="0.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.0.0.201805111645
